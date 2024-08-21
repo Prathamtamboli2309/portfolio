@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<scriptsrc="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$("document").ready(function(){
+$(".btn-project").hover(function(){
+$(this).css("color","yellow");
+}, function(){
+$(this).css("color","pink");
+});
+$(".btn-project").click(function(){
+$(".hide").toggle();
+});
+})	</script>
+
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo-container">
+    
+                    <div class="logo-text">CakeLand</div>
+                </div>
+                <div class="nav-items">
+                    <div><a href="/INDEX.HTML">Home</a></div>
+                    <div><a href="./project.html">Order Now</a></div>
+                    <div><a href="./skills.html">Cakes</a></div>
+                    <div><a href="./contactme.html">Contact-me</a></div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="project-section">
+            <h2 class="page-header">
+                Order Now
+            </h2>
+            <div class="project-container">
+                
+                    <div class="project-card" id="project1">
+                        <div class="project-number project-number-right">01</div>
+                        <div class="project-content project-content-left">
+                            
+                            <h2 class="project-heading">Choclate</h2>
+                            <div class="project-subheading"></div>
+                            <div class="btn-grp">
+                                <button class="btn-pink btn-project">Order</button>
+                                <a href=""><i title="github" class="fa-brand fa-github icon"></i></a>
+                                <a href=""><i title="github" class="fa-brand fa-github icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" id="project2"> 
+                        <div class="project-number project-number-left">02</div>
+                        <div class="project-content project-content-right">
+                            
+                            <h2 class="project-heading">Cherry</h2>
+                            <div class="project-subheading">
+
+                            </div>
+                            <div class="btn-grp">
+                                <button class="btn-pink btn-project">Order</button>
+                                <a href=""><i title="github" class="fa-brand fa-github icon"></i></a>
+                                <a href=""><i title="github" class="fa-brand fa-github icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" id="project3">
+                        <div class="project-number project-number-right">03</div>
+                        <div class="project-content project-content-left">
+                            
+                            <h2 class="project-heading">Pinepal</h2>
+                            <div class="project-subheading"></div>
+                            <div class="btn-grp">
+                                <button class="btn-pink btn-project">Order</button>
+                                <a href=""><i title="github" class="fa-brand fa-github icon"></i></a>
+                                <a href=""><i title="github" class="fa-brand fa-github icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" id="project4">
+                        <div class="project-number project-number-left">04</div>
+                        <div class="project-content project-content-right">
+                            <h2 class="project-heading">Stewberry</h2>
+                            <div class="project-subheading"></div>
+                            <div class="btn-grp">
+                                <button class="btn-pink btn-project">Order</button>
+                                <a href="/images/stack/Github.svg"><i title="github" class="fa-brand fa-github icon"></i></a>
+                                <a href="/images/stack/Github.svg"><i title="github" class="fa-brand fa-github icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

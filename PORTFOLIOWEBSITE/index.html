@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/style.css">
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+<script>
+    $("document").ready(function(){
+$(".btn-project").hover(function(){
+$(this).css("color","yellow");
+}, function(){
+$(this).css("color","pink");
+});
+
+$(".btn-project").click(function(){
+$(".hide").toggle();
+});
+
+})
+
+</script>
+<body>
+    <div class="homepage">
+    <div id="wrapper">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo-container">
+                    <!-- <img src="Images/logo.jpg" alt="" class="logo"> -->
+                    <div class="logo-text">CakeLand</div>
+                </div>
+                <div class="nav-items">
+                    <div><a href="./INDEX.HTML">Home</a></div>
+                    <div><a href="./static/project.html">Order Now</a></div>
+                    <div><a href="./static/skills.html">Skills</a></div>
+                    <div><a href="./static/contactme.html">Contact-me</a></div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-section">
+            <div class="absolute faded-text">CakeLand</div>
+             <div class="hero-section-left">
+                <div class="hero-section-heading">hi!! </div>
+                <div class="hero-section-heading hero-section-subheading">
+                    i am a CakeLover!
+                    <span class="role"></span>
+                </div>
+                <div class="hero-section-description">
+                    Welcome to my website, your gateway to exploring the world of Food through my eyes.
+                </div>
+                <div  id="btn"><button class="btn-project">Take Your Cake!</button></div>
+             </div>
+             <div class="hero-section-right">
+                
+                <div class="user-image">
+                    <img src="images/foreground.jpg" alt="">
+                </div>
+             </div>
+        </div>
+<!-- project section  -->
+ 
+<!-- skills section  -->
+ <!-- footer  -->
+       
+    </div>
+    <script src="./static/index.js"></script>
+</body>
+</html>
